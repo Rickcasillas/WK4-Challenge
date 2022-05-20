@@ -1,0 +1,38 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    border: 1px solid black;
+}
+
+body {
+    background-color: dodgerblue;
+}
+
+p {
+    color: white;
+}
+
+button {
+    outline: none;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.outer-container {
+    padding: 10px;
+    height: 100vh;
+}
+
+.top-bar p {
+    float: right;
+}
+
+.inner-container {
+    background-color: black;
+    height: 100%;
+
+}
