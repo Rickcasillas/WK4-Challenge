@@ -1,11 +1,11 @@
 
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
     border: 1px solid black;
+    color: white;
 }
 
 body {
@@ -22,9 +22,16 @@ button {
     color: white;
 }
 
+h1, h2 {
+    text-align: center;
+}
+
 .outer-container {
     padding: 10px;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .top-bar p {
@@ -34,5 +41,29 @@ button {
 .inner-container {
     background-color: black;
     height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+}
+
+.quiz-intro, main {
+    margin-bottom: 30vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.quiz-intro p {
+    text-align: center;
+}
+
+.quiz-intro button {
+    display: block;
+    margin: 0, center;
+}
+
+main {
+    display: none;
 }
